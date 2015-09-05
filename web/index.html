@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+	Based on choropleth example at:
+	http://leafletjs.com/examples/choropleth-example.html
+	RS05092015
+-->
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Irish Property Market Prices</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.css" />
+	<script src="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.js"></script>
+
+	<link rel="stylesheet" href="css/mapstyle.css" />
+</head>
+
+<body>
+	<!-- Load data files. -->
+	<script type="text/javascript" src="js/ireland.js"></script>
+	<script type="text/javascript" src="js/property_stats.json"></script>
+
+	<div id="map"></div>
+	
+	<!-- Load map renderer. -->
+	<script type="text/javascript" src="js/render_map.js"></script>
+
+</body>
+</html>
